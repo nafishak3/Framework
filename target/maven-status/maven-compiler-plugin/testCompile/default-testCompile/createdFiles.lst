@@ -1,0 +1,5 @@
+com\qa\CRM\tests\ContactsPageTests.class
+com\qa\CRM\tests\HomePageTests.class
+com\qa\CRM\tests\DeeptiContactsTests.class
+com\qa\CRM\tests\LoginPageTest.class
+com\qa\CRM\tests\RegistrationPageTests.class

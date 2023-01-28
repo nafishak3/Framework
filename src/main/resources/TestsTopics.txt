@@ -1,0 +1,6 @@
+com.qa.hubspot.tests
+LoginPageTest
+HomePageTests
+ContactsPageTests
+DeeptiContactsTests
+*********************************************

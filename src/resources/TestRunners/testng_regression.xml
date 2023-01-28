@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="CRM Test Automation Regression Test" parallel = "tests" thread-count= "2">
+    <!--thread count goes with parallel test because it depends on how many tests we have to run
+    thread count depends on machine-->
+    <test name="LoginPage Test">
+        <classes>
+            <class name="com.qa.CRM.tests.LoginPageTest" />
+        </classes>
+    </test>
+
+    <test name="HomePage Test">
+        <classes>
+            <class name="com.qa.CRM.tests.HomePageTests" />
+        </classes>
+    </test>
+
+    <test name="ContactsPage Test">
+        <classes>
+            <class name="com.qa.CRM.tests.ContactsPageTests"/>
+        </classes>
+    </test>
+
+    <test name="DeeptiContacts Test">
+        <classes>
+            <class name="com.qa.CRM.tests.DeeptiContactsTests"/>
+        </classes>
+    </test>
+
+
+
+</suite>

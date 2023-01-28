@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [CRM Test Automation Regression Test]">
+  <test thread-count="2" parallel="tests" name="DeeptiContacts Test(failed)">
+    <classes>
+      <class name="com.qa.CRM.tests.DeeptiContactsTests">
+        <methods>
+          <include name="getCompanyNameTest"/>
+          <include name="clickOnContactsTest"/>
+          <include name="tearDown"/>
+          <include name="getMobileNameTest"/>
+          <include name="getDeeptiContactsTest"/>
+          <include name="getThePageTitle"/>
+          <include name="setUp"/>
+          <include name="DeeptiContactsPagesetUp"/>
+        </methods>
+      </class> <!-- com.qa.CRM.tests.DeeptiContactsTests -->
+    </classes>
+  </test> <!-- DeeptiContacts Test(failed) -->
+  <test thread-count="2" parallel="tests" name="ContactsPage Test(failed)">
+    <classes>
+      <class name="com.qa.CRM.tests.ContactsPageTests">
+        <methods>
+          <include name="contactNameTest"/>
+          <include name="tearDown"/>
+          <include name="getTitle"/>
+          <include name="setUp"/>
+          <include name="contactsPageSetUp"/>
+          <include name="clickOnContactsTest"/>
+          <include name="clickOnContactDeeptiTest"/>
+        </methods>
+      </class> <!-- com.qa.CRM.tests.ContactsPageTests -->
+    </classes>
+  </test> <!-- ContactsPage Test(failed) -->
+</suite> <!-- Failed suite [CRM Test Automation Regression Test] -->

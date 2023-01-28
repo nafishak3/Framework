@@ -1,0 +1,24 @@
+pages
+LoginPage
+HomePage // account page
+ContactsPage
+DeeptiContact
+RegisterPage
+****************************************************
+base
+BasePage
+BaseTest
+****************************************************
+config (file)
+config.properties
+****************************************************
+util
+ElementUtil
+JavaScriptUtil
+ExcelUtil
+Constants
+****************************************************
+testdata(excel file)
+excelSheet
+****************************************************
+testlisteners

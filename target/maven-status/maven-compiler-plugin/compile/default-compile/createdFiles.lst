@@ -1,0 +1,11 @@
+com\qa\CRM\pages\pages\LoginPage.class
+com\qa\CRM\pages\pages\ContactsPage.class
+com\qa\CRM\pages\pages\DeeptiContact.class
+com\qa\CRM\pages\util\ElementUtil.class
+com\qa\CRM\pages\base\BaseTest.class
+com\qa\CRM\pages\pages\RegisterPage.class
+com\qa\CRM\pages\util\Constants.class
+com\qa\CRM\pages\base\BasePage.class
+com\qa\CRM\pages\util\ExcelUtil.class
+com\qa\CRM\pages\pages\HomePage.class
+com\qa\CRM\pages\util\JavaScriptUtil.class
