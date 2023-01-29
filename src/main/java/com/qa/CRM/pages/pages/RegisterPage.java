@@ -7,6 +7,8 @@ import org.openqa.selenium.WebDriver;
 
 public class RegisterPage extends BaseTest {
 
+
+    private By selectOption = By.id("payment_plan_id");
     private By firstName = By.name("first_name");
     private By lastName = By.name("surname");
     private By emailID = By.name("email");
@@ -27,6 +29,7 @@ public class RegisterPage extends BaseTest {
     }
 
     public void accountRegistration(String firstname, String lastname, String email, String username, String password) {
+        elementUtil.doDropDownSelectByVisualText(selectOption, "Free Edition");
         elementUtil.doSendKeys(this.firstName, firstname);
         elementUtil.doSendKeys(this.lastName, lastname);
         elementUtil.doSendKeys(this.emailID, email);

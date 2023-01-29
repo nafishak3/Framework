@@ -13,7 +13,7 @@ public class RegistrationPageTests extends BaseTest {
     public void registrationPageSetUp(){
         registerPage = loginPage.isSignupLinkClick();
     }
-    @DataProvider
+    @DataProvider(name = "getRegisterData")
     public Object[][] getRegisterData(){
         Object data[][] = ExcelUtil.getTestData(Constants.EXCEL_FILE_SHEET);
         return data;
@@ -24,5 +24,6 @@ public class RegistrationPageTests extends BaseTest {
     public void registrationSetTest(String firstname, String lastname, String email, String username, String password){
         registerPage.accountRegistration(firstname,lastname,email,username,password);
     }
+
 
 }
