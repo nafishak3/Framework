@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Failed suite [CRM Test Automation Regression Test]">
+  <test thread-count="2" parallel="tests" name="LoginPage Test(failed)">
+    <classes>
+      <class name="com.qa.CRM.tests.LoginPageTest">
+        <methods>
+          <include name="verifySignupLinkTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.CRM.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPage Test(failed) -->
+  <test thread-count="2" parallel="tests" name="HomePage Test(failed)">
+    <classes>
+      <class name="com.qa.CRM.tests.HomePageTests">
+        <methods>
+          <include name="homepageSetUp"/>
+          <include name="clickOnContactsTest"/>
+          <include name="tearDown"/>
+          <include name="verifyTheCountOfHeaderTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="verifyHomePageHeaderTest"/>
+          <include name="setUp"/>
+          <include name="verifySetUpIconTest"/>
+        </methods>
+      </class> <!-- com.qa.CRM.tests.HomePageTests -->
+    </classes>
+  </test> <!-- HomePage Test(failed) -->
   <test thread-count="2" parallel="tests" name="DeeptiContacts Test(failed)">
     <classes>
       <class name="com.qa.CRM.tests.DeeptiContactsTests">

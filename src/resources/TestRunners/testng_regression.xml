@@ -3,6 +3,11 @@
 <suite name="CRM Test Automation Regression Test" parallel = "tests" thread-count= "2">
     <!--thread count goes with parallel test because it depends on how many tests we have to run
     thread count depends on machine-->
+
+    <listeners>
+            <listeners class-name="com.qa.CRM.pages.testlisteners.ExtentReportListener" />
+    </listeners>
+
     <test name="LoginPage Test">
         <classes>
             <class name="com.qa.CRM.tests.LoginPageTest" />
