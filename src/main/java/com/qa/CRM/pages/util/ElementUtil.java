@@ -1,5 +1,6 @@
 package com.qa.CRM.pages.util;
 
+import com.qa.CRM.pages.base.BasePage;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
@@ -11,14 +12,20 @@ import java.util.List;
 public class ElementUtil {
     private WebDriver driver;
     public WebDriver frame;
+    private JavaScriptUtil jsUtil;
 
 
     public ElementUtil(WebDriver driver){
         this.driver = driver;
+        jsUtil = new JavaScriptUtil(driver);
     }
 
     public  WebElement getElement(By locator){
-        return driver.findElement (locator);
+        WebElement element = driver.findElement(locator);
+        if (BasePage.highlight.equals("true")){
+            jsUtil.flash(element);
+        }
+        return element;
     }
     public WebDriver switchToFrame(){
         WebDriver target = driver.switchTo().frame("mainpanel");
