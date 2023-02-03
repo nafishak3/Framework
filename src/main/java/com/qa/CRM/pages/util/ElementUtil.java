@@ -22,12 +22,12 @@ public class ElementUtil {
 
     public ElementUtil(WebDriver driver){
         this.driver = driver;
-        jsUtil = new JavaScriptUtil(this.driver);
+        jsUtil = new JavaScriptUtil(driver);
     }
 
     public  WebElement getElement(By locator){
         WebElement element = driver.findElement(locator);
-        if(BasePage.highlight.equals("true")){
+        if (BasePage.highlight.equals("true")){
             jsUtil.flash(element);
         }
         return element;
