@@ -15,7 +15,7 @@ public class LoginPage extends BasePage {
     private By emailID = By.name("username");
     private By password = By.name("password");
     private By loginButton = By.xpath("//input[@class ='btn btn-small']");
-    private By signUpLink = By.linkText("Sign Up");
+    public By signUpLink = By.linkText("Sign Up");
     private By signUpLinkClick = By.xpath("(//div[@id ='navbar-collapse']//ul/li/a)[2]");
     private By pageTitle = By.xpath("//a[@class='navbar-brand']//img");
 
