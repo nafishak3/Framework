@@ -12,7 +12,6 @@ public class JavaScriptUtil {
             this.driver = driver;
         }
 
-
         public String getTittleByJS() {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             return js.executeScript("return document.title;").toString();
