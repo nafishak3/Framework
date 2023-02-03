@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.qa.CRM.tests.LoginPageTest" time="4.132" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.qa.CRM.tests.LoginPageTest" time="4.56" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.6+10-LTS"/>
     <property name="sun.boot.library.path" value="C:\Users\khano\.jdks\corretto-17.0.6\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\khano\IdeaProjects\Famework_"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\khano\IdeaProjects\Framework"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\khano\IdeaProjects\Famework_"/>
+    <property name="user.dir" value="C:\Users\khano\IdeaProjects\Framework"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.6+10-LTS"/>
     <property name="os.arch" value="amd64"/>
@@ -61,7 +61,7 @@
     <property name="java.vendor.version" value="Corretto-17.0.6.10.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifyLoginPageTitleTest" time="0.025"/>
-  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifySignupLinkTest" time="0.072"/>
-  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="loginTest" time="4.035"/>
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifyLoginPageTitleTest" time="0.027"/>
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifySignupLinkTest" time="0.111"/>
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="loginTest" time="4.422"/>
 </testsuite>

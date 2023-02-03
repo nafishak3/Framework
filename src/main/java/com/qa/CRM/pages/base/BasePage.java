@@ -1,6 +1,7 @@
 package com.qa.CRM.pages.base;
 
 import com.aventstack.extentreports.utils.FileUtil;
+import com.qa.CRM.pages.util.ScreenShotUtil;
 import com.qa.CRM.pages.util.optionManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
@@ -27,6 +28,8 @@ public class BasePage {
     public Properties prop;
     public optionManager Optionmanager;
     public static String highlight;
+
+
     public static ThreadLocal<WebDriver>tlDriver = new ThreadLocal<WebDriver>();
 
     public WebDriver init_driver(String browser){
@@ -34,6 +37,7 @@ public class BasePage {
 
         highlight = prop.getProperty("highlight"); //highlight element
         Optionmanager = new optionManager(prop); //headless incognito
+
 
         if (browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();

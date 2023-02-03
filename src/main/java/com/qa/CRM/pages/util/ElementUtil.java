@@ -1,10 +1,15 @@
 package com.qa.CRM.pages.util;
 
 import com.qa.CRM.pages.base.BasePage;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import org.testng.ITestResult;
+import org.testng.TestListenerAdapter;
 
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -445,6 +450,10 @@ public class ElementUtil {
         }
         return element;
     }
+
+
+
+
 
 
 
