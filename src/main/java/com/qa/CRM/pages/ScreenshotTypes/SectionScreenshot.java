@@ -18,7 +18,7 @@ public class SectionScreenshot {
     public static void main(String[] args) throws IOException {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://www.w3schools.com/java/java_files.asp");
+//        driver.get("https://www.w3schools.com/java/java_files.asp");
 
 
         WebElement webTable = driver.findElement(By.className("w3-responsive"));
