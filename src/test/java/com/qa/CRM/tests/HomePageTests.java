@@ -2,16 +2,18 @@ package com.qa.CRM.tests;
 
 import com.qa.CRM.pages.base.BaseTest;
 import com.qa.CRM.pages.util.Constants;
+import com.qa.CRM.pages.util.ScreenShotUtil;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners (ScreenShotUtil.class)
 public class HomePageTests extends BaseTest {
-
 
     @BeforeClass
     public void homepageSetUp(){
         homePage = loginPage.doLogin(prop.getProperty("username"),prop.getProperty("password"));
+
     }
 
     @Test(priority = 1)

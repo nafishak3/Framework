@@ -27,14 +27,17 @@ public class BasePage {
     public WebDriver driver;
     public Properties prop;
     public optionManager Optionmanager;
-    public static  String highlight;
+    public static String highlight;
+
 
     public static ThreadLocal<WebDriver>tlDriver = new ThreadLocal<WebDriver>();
 
     public WebDriver init_driver(String browser){
         System.out.println("browser value is: " + browser);
-        highlight = prop.getProperty("highlight");
-        Optionmanager = new optionManager(prop);
+
+        highlight = prop.getProperty("highlight"); //highlight element
+        Optionmanager = new optionManager(prop); //headless incognito
+
 
         if (browser.equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
