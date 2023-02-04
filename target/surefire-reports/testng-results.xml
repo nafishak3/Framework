@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T19:11:47 EST" name="com.qa.CRM.tests.LoginPageTest" finished-at="2023-02-03T19:11:51 EST" duration-ms="3671">
+  <suite started-at="2023-02-03T19:39:59 EST" name="com.qa.CRM.tests.LoginPageTest" finished-at="2023-02-03T19:40:04 EST" duration-ms="5589">
     <groups>
     </groups>
-    <test started-at="2023-02-03T19:11:47 EST" name="Command line test" finished-at="2023-02-03T19:11:51 EST" duration-ms="3671">
+    <test started-at="2023-02-03T19:39:59 EST" name="Command line test" finished-at="2023-02-03T19:40:04 EST" duration-ms="5589">
       <class name="com.qa.CRM.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:11:47 EST" name="setUp" finished-at="2023-02-03T19:11:50 EST" duration-ms="2346" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:39:59 EST" name="setUp" finished-at="2023-02-03T19:40:02 EST" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:11:50 EST" name="verifyLoginPageTitleTest" finished-at="2023-02-03T19:11:50 EST" duration-ms="17" status="PASS">
+        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:40:02 EST" name="verifyLoginPageTitleTest" finished-at="2023-02-03T19:40:02 EST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method signature="verifySignupLinkTest()[pri:2, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:11:50 EST" name="verifySignupLinkTest" finished-at="2023-02-03T19:11:50 EST" duration-ms="176" status="PASS">
+        <test-method signature="verifySignupLinkTest()[pri:2, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:40:02 EST" name="verifySignupLinkTest" finished-at="2023-02-03T19:40:02 EST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupLinkTest -->
-        <test-method signature="loginTest()[pri:3, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:11:50 EST" name="loginTest" finished-at="2023-02-03T19:11:51 EST" duration-ms="980" status="PASS">
+        <test-method signature="loginTest()[pri:3, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:40:02 EST" name="loginTest" finished-at="2023-02-03T19:40:04 EST" duration-ms="1854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:11:51 EST" name="tearDown" finished-at="2023-02-03T19:11:51 EST" duration-ms="118" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.CRM.tests.LoginPageTest@5a955565]" started-at="2023-02-03T19:40:04 EST" name="tearDown" finished-at="2023-02-03T19:40:04 EST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
