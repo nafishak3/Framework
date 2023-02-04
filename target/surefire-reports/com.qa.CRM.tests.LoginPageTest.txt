@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.qa.CRM.tests.LoginPageTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.165 sec
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.487 sec
+>>>>>>> caf5343de7924dd7a3592d27a4614308da3ac07b
