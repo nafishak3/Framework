@@ -36,7 +36,7 @@ public class ElementUtil {
         WebDriver target = driver.switchTo().frame("mainpanel");
         return target;
     }
-    public void threadSleep(int milis){
+    public static void threadSleep(int milis) {
         try {
             Thread.sleep(milis);
         } catch (InterruptedException e) {
