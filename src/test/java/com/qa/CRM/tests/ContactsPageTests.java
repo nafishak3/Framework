@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
-@Listeners(ScreenShotUtil.class)
+//@Listeners(ScreenShotUtil.class)
 public class ContactsPageTests extends BaseTest {
 
     @BeforeClass
