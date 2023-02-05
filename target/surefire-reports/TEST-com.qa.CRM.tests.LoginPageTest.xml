@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
+<testsuite tests="3" failures="0" name="com.qa.CRM.tests.LoginPageTest" time="1.209" errors="0" skipped="0">
+=======
 <testsuite tests="3" failures="0" name="com.qa.CRM.tests.LoginPageTest" time="6.392" errors="0" skipped="0">
+>>>>>>> caf5343de7924dd7a3592d27a4614308da3ac07b
   <properties>
     <property name="idea.version" value="2022.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,7 +65,13 @@
     <property name="java.vendor.version" value="Corretto-17.0.6.10.1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< HEAD
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifyLoginPageTitleTest" time="0.021"/>
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifySignupLinkTest" time="0.339"/>
+  <testcase classname="com.qa.CRM.tests.LoginPageTest" name="loginTest" time="0.849"/>
+=======
   <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifyLoginPageTitleTest" time="0.018"/>
   <testcase classname="com.qa.CRM.tests.LoginPageTest" name="verifySignupLinkTest" time="3.041"/>
   <testcase classname="com.qa.CRM.tests.LoginPageTest" name="loginTest" time="3.333"/>
+>>>>>>> caf5343de7924dd7a3592d27a4614308da3ac07b
 </testsuite>
