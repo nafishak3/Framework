@@ -372,7 +372,7 @@ public class ElementUtil {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut),  Duration.ofMillis(intervalTime));
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();
     }
-//    *********************** Explicit util********************************************************
+//    *********************** fluent util********************************************************
     public WebElement waitForElementPresentUsingFluentWait(By locator, int timeOut, long intervelTime){  //Builder pattern
         Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
                 .withTimeout(Duration.ofSeconds(timeOut))
