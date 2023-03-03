@@ -18,7 +18,7 @@ public class ExcelUtil {
     public static Object [][] getTestData(String sheetName){
         Object data[] [] = null ;
         try {
-            FileInputStream ip = new FileInputStream(TEST_DATA_SHEET_PATH);
+            FileInputStream ip = new FileInputStream(TEST_DATA_SHEET_PATH); //bytes from the file into file system
             book = WorkbookFactory.create(ip);
             sheet = book.getSheet(sheetName);
 

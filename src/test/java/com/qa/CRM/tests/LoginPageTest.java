@@ -9,6 +9,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 @Listeners (ScreenShotUtil.class)
+
 public class LoginPageTest extends BaseTest {
 
     SoftAssert softAssert = new SoftAssert(); //This is a class, that is used to verify multiple assertions together.

@@ -1,4 +1,4 @@
-package com.qa.CRM.pages.pratice;
+package com.qa.CRM.pages.practice;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -7,9 +7,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
 
-public class excle {
+public class Excle {
     private static Workbook book;
     private static Sheet sheet;
     public static String TEST_DATA_SHEET_PATH = "src/main/java/testdata/CRM(SignUp).xlsx";
