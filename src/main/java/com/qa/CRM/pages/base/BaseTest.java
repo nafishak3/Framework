@@ -29,13 +29,13 @@ public class BaseTest {
         prop = basepage.init_property();
         String browser = prop.getProperty("browser");
         driver = basepage.init_driver(browser);
-//        loginPage = new LoginPage(driver);
-        loginPage = (loginPage == null) ? new LoginPage(driver) : loginPage;  //if else
+                                                                                                //        loginPage = new LoginPage(driver);
+        loginPage = (loginPage == null) ? new LoginPage(driver) : loginPage;                    //if else
 
-//        homePage = new HomePage(driver);
-//        contactsPage = new ContactsPage(driver);
-//        deeptiContact = new DeeptiContact(driver);
-//        registerPage = new RegisterPage(driver);
+                                                                                                //        homePage = new HomePage(driver);
+                                                                                                //        contactsPage = new ContactsPage(driver);
+                                                                                                //        deeptiContact = new DeeptiContact(driver);
+                                                                                                //        registerPage = new RegisterPage(driver);
         driver.get(prop.getProperty("url"));
 
     }
